@@ -1,0 +1,106 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:color/darker_gray">
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*"
+            android:id="@+id/headerTableLayout"
+            android:baselineAligned="false"
+            android:divider="@android:drawable/divider_horizontal_dark"
+            android:dividerPadding="1dp"
+            android:showDividers="middle"
+            android:layout_above="@+id/final_row"
+            >
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/headerTableRow"
+                android:background="@android:color/holo_blue_light">
+
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/bill_name"
+                    android:id="@+id/bill_name_header"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/amount"
+                    android:id="@+id/amount_header"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/date"
+                    android:id="@+id/date_header"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainTableRow"
+                android:background="@android:color/background_light">
+
+            <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView"
+                    android:layout_span="4">
+
+                <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/billsTableLayout"
+                        android:stretchColumns="*"
+                        android:showDividers="beginning|middle|end"
+                        android:divider="@android:drawable/divider_horizontal_dim_dark">
+
+                </TableLayout>
+            </ScrollView>
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/final_row">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/total_lbl_txt"
+                android:id="@+id/total_text"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/total_amt_txt"
+                android:hint="@string/total_amt_hint"
+                />
+    </LinearLayout>
+
+</RelativeLayout>

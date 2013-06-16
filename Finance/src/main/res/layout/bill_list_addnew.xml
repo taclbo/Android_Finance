@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/add_row"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:showDividers="beginning|middle|end"
+          android:divider="@android:drawable/divider_horizontal_dark"
+          android:color="@android:color/transparent"
+          android:alpha="0.6">
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_button"
+            android:id="@+id/add_button"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/add_button"
+            android:enabled="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:shadowColor="@android:color/darker_gray"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="New Button"
+            android:id="@+id/button"/>
+</TableRow>

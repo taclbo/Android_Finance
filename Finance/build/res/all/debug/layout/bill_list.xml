@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bill_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="beginning|middle|end"
+        android:divider="@android:drawable/divider_horizontal_dark"
+        android:color="@android:color/transparent"
+        android:padding="1dp"
+        android:gravity="left">
+
+    <EditText android:id="@+id/bill_name_text"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:inputType="textCapSentences"
+              android:textColor="@android:color/black"
+              android:hint="@string/bill_name_hint"
+              android:enabled="true"
+              android:layout_gravity="bottom|left"
+              android:gravity="left"
+            />
+    <EditText android:id="@+id/amount_text"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:inputType="numberDecimal"
+              android:hint="@string/amount_hint"
+              android:numeric="decimal"
+              android:enabled="true"
+              android:textColor="@android:color/black"
+              android:layout_gravity="left"
+              android:gravity="left"
+            />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_text"
+            android:hint="@string/date_hint"
+            android:inputType="date"
+            android:enabled="true"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left"
+            android:gravity="left"
+            />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarButton"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:onClick="selectDate"
+            android:contentDescription="@string/calendar_button_description"
+            android:cropToPadding="true"
+            />
+
+</TableRow>

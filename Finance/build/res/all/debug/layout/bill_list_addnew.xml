@@ -19,4 +19,5 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:shadowColor="@android:color/darker_gray"/>
+
 </TableRow>

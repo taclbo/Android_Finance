@@ -18,7 +18,7 @@
               android:enabled="true"
               android:layout_gravity="bottom|left"
               android:gravity="left"
-            />
+              android:layout_column="0"/>
     <EditText android:id="@+id/amount_text"
               android:layout_height="wrap_content"
               android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
               android:textColor="@android:color/black"
               android:layout_gravity="left"
               android:gravity="left"
-            />
+              android:layout_column="1"/>
 
     <EditText
             android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
             android:textColor="@android:color/black"
             android:layout_gravity="left"
             android:gravity="left"
-            />
+            android:layout_column="2"/>
 
     <ImageButton
             android:layout_width="wrap_content"
@@ -52,6 +52,6 @@
             android:onClick="selectDate"
             android:contentDescription="@string/calendar_button_description"
             android:cropToPadding="true"
-            />
+            android:layout_column="3"/>
 
 </TableRow>

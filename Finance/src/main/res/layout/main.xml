@@ -69,9 +69,10 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/billsTableLayout"
-                        android:stretchColumns="*"
+                        android:stretchColumns="0"
                         android:showDividers="beginning|middle|end"
-                        android:divider="@android:drawable/divider_horizontal_dim_dark">
+                        android:divider="@android:drawable/divider_horizontal_dim_dark"
+                        >
 
                 </TableLayout>
             </ScrollView>

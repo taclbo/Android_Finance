@@ -50,31 +50,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983babb1-94da-449f-b47b-3d42ed04d9d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Finance/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/Finance.iml" afterPath="$PROJECT_DIR$/Finance/Finance.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FinanceProject.iml" afterPath="$PROJECT_DIR$/FinanceProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/source/r/debug/com/taclbo/finance/R.java" afterPath="$PROJECT_DIR$/Finance/build/source/r/debug/com/taclbo/finance/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="DELETED" beforePath="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\bill_list_addnew.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list_addnew.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list_addnew.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list_addnew.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list_addnew.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="004ba234-a6f1-40f0-ada2-9f675c7ba000" name="Failed commit: Default" comment="initial" />
     <ignored path="Finance.iws" />
@@ -98,7 +80,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -135,6 +116,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -144,10 +126,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bill_list.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bill_list.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml">
           <provider editor-type-id="text-editor">
-            <state line="53" column="40" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="1071">
+            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
@@ -158,29 +140,20 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="226" selection-end="226" vertical-scroll-proportion="-2.5185184" vertical-offset="0" max-vertical-offset="1887">
+          <provider editor-type-id="text-editor">
+            <state line="4" column="56" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Finance/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Finance.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Finance.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="429" selection-end="429" vertical-scroll-proportion="0.18085106" vertical-offset="119" max-vertical-offset="3213">
+            <state line="28" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
               <folding />
             </state>
           </provider>
@@ -247,10 +220,10 @@
         <option value="$PROJECT_DIR$/Finance/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Finance/src/main/res/values/integers.xml" />
         <option value="$PROJECT_DIR$/Finance/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" />
+        <option value="$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java" />
         <option value="$PROJECT_DIR$/Finance/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list_addnew.xml" />
-        <option value="$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java" />
+        <option value="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" />
       </list>
     </option>
   </component>
@@ -305,8 +278,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,8 +310,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,15 +404,15 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="42f7230427549f23" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d24a7f714020b" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_7_by_Google" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.Finance">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -555,15 +606,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1036" extended-state="7" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18960051" sideWeight="0.6713009" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23779328" sideWeight="0.6713009" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.6704675" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3480226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34767836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28278223" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1589404" sideWeight="0.7172178" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -575,7 +626,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24834438" sideWeight="0.7172178" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.39955848" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.6704675" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15955175" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15955175" sideWeight="0.65232164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -589,13 +640,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3477765" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18928164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.62257695" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18928164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16061899" sideWeight="0.65310735" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23779328" sideWeight="0.6713009" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -718,9 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Finance/build/res/all/debug/menu/finance.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Finance/src/main/res/values/strings.xml">
@@ -730,33 +779,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/bill_list_addnew.xml">
-      <provider editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Finance/Finance_Android/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="3" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.33236575" vertical-offset="1998" max-vertical-offset="3757">
-          <folding />
-        </state>
+        <state line="131" column="3" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.33236575" vertical-offset="1998" max-vertical-offset="3757" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Finance/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+        <state line="5" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.1551095" vertical-offset="0" max-vertical-offset="548">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml">
+    <entry file="file://$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/main.xml">
       <provider editor-type-id="text-editor">
-        <state line="53" column="40" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="1071">
+        <state line="4" column="56" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
@@ -764,21 +808,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="226" selection-end="226" vertical-scroll-proportion="-2.5185184" vertical-offset="0" max-vertical-offset="1887">
+    <entry file="file://$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml">
+      <provider editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="429" selection-end="429" vertical-scroll-proportion="0.18085106" vertical-offset="119" max-vertical-offset="3213">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

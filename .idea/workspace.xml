@@ -50,12 +50,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983babb1-94da-449f-b47b-3d42ed04d9d5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\bill_list_addnew.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list_addnew.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list_addnew.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="004ba234-a6f1-40f0-ada2-9f675c7ba000" name="Failed commit: Default" comment="initial" />
@@ -579,7 +573,11 @@
       <created>1371777000774</created>
       <updated>1371777000774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed layout issues and added a delete button to layout but not the code">
+      <created>1371910760397</created>
+      <updated>1371910760397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -606,7 +604,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1036" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18960051" sideWeight="0.6713009" order="2" side_tool="false" content_ui="tabs" />
@@ -705,7 +703,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unwanted imports from Finance.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed layout issues and added a delete button to layout but not the code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -722,6 +720,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="Updated Add Button" />
     <MESSAGE value="removed unwanted imports from Finance.java" />
+    <MESSAGE value="Fixed layout issues and added a delete button to layout but not the code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

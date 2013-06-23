@@ -16,6 +16,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
@@ -27,6 +29,7 @@ public class Finance extends FragmentActivity {
 
     //Main Content
     private SharedPreferences savedTable; //saved bill table
+    private ScrollView scrollView;
     private TableLayout billsTableLayout;
     private EditText selectedDateEditText;
 
@@ -52,64 +55,35 @@ public class Finance extends FragmentActivity {
         //get the SharedPreferences that contains the user's bills table
         savedTable = getSharedPreferences("bills", MODE_PRIVATE);
 
-        //get a reference to the billsTableLayout
-        billsTableLayout = (TableLayout) findViewById(R.id.billsTableLayout);
+        //get a reference to the scroll view
+        scrollView = (ScrollView)findViewById(R.id.scrollView);
+
+        //get a reference to the TableLayou
+        billsTableLayout = (TableLayout)findViewById(R.id.billsTableLayout);
+
+        //get a reference to the bill_list layout
+        View billList = inflater.inflate(R.layout.bill_list, null);
+
+        //get a reference to the add row button
+        Button addButton = (Button)findViewById(R.id.add_button);
+        addButton.setOnClickListener(addBillRowOnClickListener);
+
+        //get a reference to the remove button
+        ImageButton removeButton = (ImageButton)findViewById(R.id.removeButton);
+        removeButton.setOnClickListener(removeBillRowOnClickListener);
+
+        //add the billList to the scroll view
+        scrollView.addView(billList);
 
         //set billsTableLayout index
         index = 0;
-
-        //add the first blank bill row
-        addBillRow();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.finance, menu);
-
         return true;
-    }
-
-    //add a row to the billsTableLayout
-    private void addBillRow(){
-        Log.d(TAG, "Adding first row");
-        //get a reference to the LayoutInflater service
-        LayoutInflater inflater = (LayoutInflater) getSystemService(Context.
-            LAYOUT_INFLATER_SERVICE);
-
-        //inflate bill_list.xml
-        View newBillRow = inflater.inflate(R.layout.bill_list, null);
-
-        //add new row to the bills table
-        billsTableLayout.addView(newBillRow, index);
-        addAddRow();
-        index++;
-    }
-
-    //add a greyed out row to thebillsTableLayout
-    private void addAddRow(){
-        Log.d(TAG, "addGreyedBillRow");
-        //get a reference to the LayoutInflater service
-        LayoutInflater inflater = (LayoutInflater) getSystemService(Context.
-                LAYOUT_INFLATER_SERVICE);
-
-        //Get the layout with the add button
-        View newAddRow = inflater.inflate(R.layout.bill_list_addnew, null);
-
-        //get a reference to the button and set the onClickListener to the
-        //addBillRowOnClickListener method
-        Button addRowBtn = (Button)newAddRow.findViewById(R.id.add_button);
-        ViewGroup.LayoutParams tableParams =  billsTableLayout.getLayoutParams();
-        TableRow.LayoutParams rowParams = (TableRow.LayoutParams)
-                addRowBtn.getLayoutParams();
-        Log.d(TAG, "tableParams = " + tableParams.toString());
-        rowParams.width = tableParams.width;
-        addRowBtn.setLayoutParams(rowParams);
-
-        addRowBtn.setOnClickListener(addBillRowOnClickListener);
-
-        //Add the row to the table
-        billsTableLayout.addView(newAddRow, index+1);
     }
 
     //OnClickListener for the addButton. Adds a new row to the table.
@@ -121,13 +95,16 @@ public class Finance extends FragmentActivity {
                     LAYOUT_INFLATER_SERVICE);
 
             //inflate a BillRow and an AddRow to add to the end of the table
-            View newBillRow = inflater.inflate(R.layout.bill_list, null);
-            View newAddRow = inflater.inflate(R.layout.bill_list_addnew, null);
+            View newBillRow = inflater.inflate(R.id.bill_row, null);
+            View newAddRow = inflater.inflate(R.id.add_button, null);
 
             //set addButton's onClickListener
             Button addBtn = (Button) newAddRow.findViewById(R.id.add_button);
             addBtn.setOnClickListener(addBillRowOnClickListener);
 
+            //set remove onClickListener
+            ImageButton removeButton = (ImageButton)findViewById(R.id.removeButton);
+            removeButton.setOnClickListener(removeBillRowOnClickListener);
 
             //remove AddRow that was just clicked.
             billsTableLayout.removeViewAt(index);
@@ -139,7 +116,6 @@ public class Finance extends FragmentActivity {
         }
     };
 
-    /*
     public View.OnClickListener removeBillRowOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -150,7 +126,6 @@ public class Finance extends FragmentActivity {
             index--;
         }
     };
-    */
 
     //--------------------------------------DatePickerDialog--------------------------------------//
     //When the date EditText is tapped, show the DatePickerDialog

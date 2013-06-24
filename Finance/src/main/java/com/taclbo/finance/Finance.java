@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -30,6 +29,8 @@ public class Finance extends FragmentActivity {
     //Main Content
     private SharedPreferences savedTable; //saved bill table
     private ScrollView scrollView;
+    private TableRow billsRow;
+    private TableRow addRow;
     private TableLayout billsTableLayout;
     private EditText selectedDateEditText;
 
@@ -58,25 +59,28 @@ public class Finance extends FragmentActivity {
         //get a reference to the scroll view
         scrollView = (ScrollView)findViewById(R.id.scrollView);
 
-        //get a reference to the TableLayou
-        billsTableLayout = (TableLayout)findViewById(R.id.billsTableLayout);
-
         //get a reference to the bill_list layout
-        View billList = inflater.inflate(R.layout.bill_list, null);
+        billsTableLayout = (TableLayout)inflater.inflate(R.layout.bill_list, null);
+
+        //get a reference to billsRow
+        billsRow = (TableRow)billsTableLayout.findViewById(R.id.billRow);
+
+        //get a reference to add_row
+        addRow = (TableRow)billsTableLayout.findViewById(R.id.addRow);
 
         //get a reference to the add row button
-        Button addButton = (Button)findViewById(R.id.add_button);
+        Button addButton = (Button)billsTableLayout.findViewById(R.id.addButton);
         addButton.setOnClickListener(addBillRowOnClickListener);
 
         //get a reference to the remove button
-        ImageButton removeButton = (ImageButton)findViewById(R.id.removeButton);
+        ImageButton removeButton = (ImageButton)billsTableLayout.findViewById(R.id.removeButton);
         removeButton.setOnClickListener(removeBillRowOnClickListener);
 
         //add the billList to the scroll view
-        scrollView.addView(billList);
+        scrollView.addView(billsTableLayout);
 
         //set billsTableLayout index
-        index = 0;
+        index = 1;
     }
 
     @Override
@@ -95,15 +99,15 @@ public class Finance extends FragmentActivity {
                     LAYOUT_INFLATER_SERVICE);
 
             //inflate a BillRow and an AddRow to add to the end of the table
-            View newBillRow = inflater.inflate(R.id.bill_row, null);
-            View newAddRow = inflater.inflate(R.id.add_button, null);
+            View newBillRow = inflater.inflate(R.layout.bill_row, null);
+            View newAddRow = inflater.inflate(R.layout.add_row, null);
 
             //set addButton's onClickListener
-            Button addBtn = (Button) newAddRow.findViewById(R.id.add_button);
+            Button addBtn = (Button) newAddRow.findViewById(R.id.addButton);
             addBtn.setOnClickListener(addBillRowOnClickListener);
 
             //set remove onClickListener
-            ImageButton removeButton = (ImageButton)findViewById(R.id.removeButton);
+            ImageButton removeButton = (ImageButton)newBillRow.findViewById(R.id.removeButton);
             removeButton.setOnClickListener(removeBillRowOnClickListener);
 
             //remove AddRow that was just clicked.
@@ -111,6 +115,8 @@ public class Finance extends FragmentActivity {
 
             //Add the two new rows to the end of the table.
             billsTableLayout.addView(newBillRow);
+            Log.d(TAG, "number of children in table: " + String.valueOf(billsTableLayout.getChildCount()));
+            Log.d(TAG, "index: " + String.valueOf(index));
             billsTableLayout.addView(newAddRow);
             index++;
         }

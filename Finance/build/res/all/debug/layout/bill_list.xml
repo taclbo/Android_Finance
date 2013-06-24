@@ -1,57 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/bill_row"
+<TableLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:showDividers="beginning|middle|end"
-        android:divider="@android:drawable/divider_horizontal_dark"
-        android:color="@android:color/transparent"
-        android:padding="1dp"
-        android:gravity="left">
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/billsTableLayout"
+        android:shrinkColumns="*">
 
-    <EditText android:id="@+id/bill_name_text"
+    <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/billRow"
+              android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:layout_width="wrap_content"
-              android:inputType="textCapSentences"
-              android:textColor="@android:color/black"
-              android:hint="@string/bill_name_hint"
-              android:enabled="true"
-              android:layout_gravity="bottom|left"
-              android:gravity="left"
-              android:layout_column="0"/>
-    <EditText android:id="@+id/amount_text"
-              android:layout_height="wrap_content"
-              android:layout_width="wrap_content"
-              android:inputType="numberDecimal"
-              android:hint="@string/amount_hint"
-              android:numeric="decimal"
-              android:enabled="true"
-              android:textColor="@android:color/black"
-              android:layout_gravity="left"
-              android:gravity="left"
-              android:layout_column="1"/>
+              android:showDividers="beginning|middle|end"
+              android:divider="@android:drawable/divider_horizontal_dark"
+              android:color="@android:color/transparent"
+              android:padding="1dp"
+              android:gravity="left">
 
-    <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/date_text"
-            android:hint="@string/date_hint"
-            android:inputType="date"
-            android:enabled="true"
-            android:textColor="@android:color/black"
-            android:layout_gravity="left"
-            android:gravity="left"
-            android:layout_column="2"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/removeButton"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:layout_margin="0dp"
+                android:padding="0dp"/>
 
-    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/calendarButton"
-            android:background="@android:color/transparent"
-            android:src="@android:drawable/ic_menu_my_calendar"
-            android:onClick="selectDate"
-            android:contentDescription="@string/calendar_button_description"
-            android:cropToPadding="true"
-            android:layout_column="3"/>
+        <EditText
+                android:id="@+id/bill_name_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:inputType="textCapSentences"
+                android:textColor="@android:color/black"
+                android:hint="@string/bill_name_hint"
+                android:enabled="true"
+                android:layout_gravity="bottom|left"
+                android:gravity="left"
+                android:layout_column="0"/>
 
-</TableRow>
+        <EditText
+                android:id="@+id/amount_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="@string/amount_hint"
+                android:numeric="decimal"
+                android:enabled="true"
+                android:textColor="@android:color/black"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_column="1"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date_text"
+                android:hint="@string/date_hint"
+                android:inputType="date"
+                android:enabled="true"
+                android:textColor="@android:color/black"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_column="2"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calendarButton"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                android:onClick="selectDate"
+                android:contentDescription="@string/calendar_button_description"
+                android:cropToPadding="true"
+                android:layout_column="3"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/addRow">
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_button"
+                android:id="@+id/addButton"
+                android:background="@android:color/transparent"
+                android:textSize="@dimen/add_button"
+                android:enabled="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:shadowColor="@android:color/darker_gray"
+                android:layout_column="0"
+                android:layout_span="5"/>
+    </TableRow>
+
+</TableLayout>

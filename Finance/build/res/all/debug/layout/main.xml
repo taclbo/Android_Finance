@@ -65,16 +65,6 @@
                     android:id="@+id/scrollView"
                     android:layout_span="4">
 
-                <TableLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/billsTableLayout"
-                        android:stretchColumns="0"
-                        android:showDividers="beginning|middle|end"
-                        android:divider="@android:drawable/divider_horizontal_dim_dark"
-                        >
-
-                </TableLayout>
             </ScrollView>
         </TableRow>
 

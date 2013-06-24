@@ -20,32 +20,35 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
-        public static final int add_button=0x7f080006;
-        public static final int add_row=0x7f080005;
-        public static final int amount_header=0x7f08000b;
-        public static final int amount_text=0x7f080002;
-        public static final int bill_name_header=0x7f08000a;
-        public static final int bill_name_text=0x7f080001;
-        public static final int bill_row=0x7f080000;
-        public static final int billsTableLayout=0x7f08000f;
-        public static final int calendarButton=0x7f080004;
-        public static final int clear=0x7f080014;
-        public static final int date_header=0x7f08000c;
-        public static final int date_text=0x7f080003;
-        public static final int final_row=0x7f080008;
-        public static final int headerTableLayout=0x7f080007;
-        public static final int headerTableRow=0x7f080009;
-        public static final int mainTableRow=0x7f08000d;
-        public static final int save=0x7f080013;
-        public static final int scrollView=0x7f08000e;
-        public static final int total_amt_txt=0x7f080011;
-        public static final int total_text=0x7f080010;
+        public static final int action_settings=0x7f080014;
+        public static final int addButton=0x7f080001;
+        public static final int addRow=0x7f080009;
+        public static final int amount_header=0x7f08000e;
+        public static final int amount_text=0x7f080006;
+        public static final int billRow=0x7f080003;
+        public static final int bill_name_header=0x7f08000d;
+        public static final int bill_name_text=0x7f080005;
+        public static final int billsTableLayout=0x7f080002;
+        public static final int calendarButton=0x7f080008;
+        public static final int clear=0x7f080016;
+        public static final int date_header=0x7f08000f;
+        public static final int date_text=0x7f080007;
+        public static final int final_row=0x7f08000b;
+        public static final int headerTableLayout=0x7f08000a;
+        public static final int headerTableRow=0x7f08000c;
+        public static final int mainTableRow=0x7f080010;
+        public static final int removeButton=0x7f080004;
+        public static final int save=0x7f080015;
+        public static final int scrollView=0x7f080011;
+        public static final int tableRow=0x7f080000;
+        public static final int total_amt_txt=0x7f080013;
+        public static final int total_text=0x7f080012;
     }
     public static final class layout {
-        public static final int bill_list=0x7f030000;
-        public static final int bill_list_addnew=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int add_row=0x7f030000;
+        public static final int bill_list=0x7f030001;
+        public static final int bill_row=0x7f030002;
+        public static final int main=0x7f030003;
     }
     public static final class menu {
         public static final int finance=0x7f070000;

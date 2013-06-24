@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tableRow"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_button"
+            android:id="@+id/addButton"
+            android:background="@android:color/transparent"
+            android:textSize="@dimen/add_button"
+            android:enabled="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:shadowColor="@android:color/darker_gray"
+            android:layout_column="0"
+            android:layout_span="5"/>
+</TableRow>

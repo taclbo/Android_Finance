@@ -3,11 +3,11 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="billsTableLayout"
+        android:id="@+id/billsTableLayout"
         android:shrinkColumns="*">
 
     <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/tableRow"
+              android:id="@+id/billRow"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:showDividers="beginning|middle|end"

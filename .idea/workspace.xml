@@ -50,14 +50,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983babb1-94da-449f-b47b-3d42ed04d9d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/add_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_row.xml" />
-      <change type="DELETED" beforePath="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\build\res\all\debug\layout\bill_list_addnew.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java" afterPath="$PROJECT_DIR$/Finance/src/main/java/com/taclbo/finance/Finance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/source/r/debug/com/taclbo/finance/R.java" afterPath="$PROJECT_DIR$/Finance/build/source/r/debug/com/taclbo/finance/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/bill_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" afterPath="$PROJECT_DIR$/Finance/src/main/res/layout/bill_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/Finance/build/res/all/debug/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="004ba234-a6f1-40f0-ada2-9f675c7ba000" name="Failed commit: Default" comment="initial" />
@@ -625,7 +617,11 @@
       <created>1371951939741</created>
       <updated>1371951939741</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modified layout">
+      <created>1372043457392</created>
+      <updated>1372043457392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -653,7 +649,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18960051" sideWeight="0.6713009" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,7 +747,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted the old billsTableLayout" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified layout" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -770,6 +766,7 @@
     <MESSAGE value="removed unwanted imports from Finance.java" />
     <MESSAGE value="Fixed layout issues and added a delete button to layout but not the code" />
     <MESSAGE value="deleted the old billsTableLayout" />
+    <MESSAGE value="modified layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

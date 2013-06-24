@@ -136,6 +136,26 @@
                     <!-- API 11 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="billRow"
+                path="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\billRow.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="addRow"
+                path="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\addRow.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_row"
+                path="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\add_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="bill_row"
+                path="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\src\main\res\layout\bill_row.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\justin.wyatt\android_workspace\FinanceProject\Finance\build\res\rs\debug" />
     </dataSet>
